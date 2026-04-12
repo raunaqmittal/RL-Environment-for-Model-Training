@@ -1,18 +1,3 @@
----
-title: PromptForge
-emoji: 🔨
-colorFrom: purple
-colorTo: blue
-sdk: docker
-pinned: true
-app_port: 7860
-tags:
-  - openenv
-  - reinforcement-learning
-  - llmops
-  - prompt-engineering
----
-
 # PromptForge — OpenEnv RL Environment
 
 **PromptForge** is a reinforcement learning environment for the **Meta PyTorch × Hugging Face OpenEnv Hackathon**. It trains RL agents to autonomously detect and eliminate **Prompt Debt** from production LLM system prompts.
@@ -218,3 +203,19 @@ _Zero-shot summarization models struggle significantly with the `Hard` schema ta
 | `ENV_BASE_URL`                    | `http://localhost:7860`            | PromptForge server URL                     |
 | `PERPLEXITY_THRESHOLD_MULTIPLIER` | `1.5`                              | PPL guard threshold                        |
 | `PERPLEXITY_PENALTY_SCALAR`       | `-0.5`                             | PPL guard penalty                          |
+
+
+---
+title: PromptForge
+emoji: 🔨
+colorFrom: purple
+colorTo: blue
+sdk: docker
+pinned: true
+app_port: 7860
+tags:
+  - openenv
+  - reinforcement-learning
+  - llmops
+  - prompt-engineering
+---
